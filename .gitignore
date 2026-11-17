@@ -36,9 +36,15 @@ yarn-error.log*
 # file upload privat (bukti transfer) — tidak di-commit
 /uploads/
 
+# dump database berisi data asli user — tidak boleh masuk repo publik
+/db/*.sql
+
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
+.env*
